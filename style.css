@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body {
+  
+} 
+.bg-image{
+  background-image: url(milky-way.jpeg);
+ 
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+}
+@media (min-width: 768px){
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1  {
+      width: 100%;
+      width: 100%;
+    }
+  }
+  
+  
+  @media (min-width: 992px) {
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1 {
+      width: 14.285714285714285714285714285714%;
+    }
+  }
+  
+  
+  @media (min-width: 1200px) {
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1 {
+      width: 14.285714285714285714285714285714%;
+    }
+  }
+#size{
+  font-size: 1.25rem;
+}
+h1{
+  font-size: calc(3.5rem + 1.5vw);
+}
+h3{
+  font-size: calc(1.5rem + .6vw);
+}
+button{
+  font-size: 1.25rem;
+  border-radius: 25px;
+}
+#icon{
+  padding-right: .5rem;
+}
+p{
+  margin-bottom: 0;
+}
+#desc {
+  font-size: 1.25rem;
+}
+.col-md-1{
+  padding: 0;
+}
